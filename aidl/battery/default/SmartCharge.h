@@ -84,7 +84,7 @@ class SmartCharge : public BnSmartCharge {
   } status;
 
   bool loadAndParseConfigProp();
-  void loadImplLibrary();
+  void loadConfiguration();
   void loadEnabledAndStart();
 
 public:
